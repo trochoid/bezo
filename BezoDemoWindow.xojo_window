@@ -455,7 +455,7 @@ End
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
 		  #pragma unused areas
-		  
+		  //this is a commit???
 		  //=============================================== init theCurve if empty/nil
 		  if theCurve = nil then theCurve = new Bezo
 		  if theCurve.controlPntX.Ubound = -1 then
